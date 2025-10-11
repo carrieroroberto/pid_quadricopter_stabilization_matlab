@@ -1,15 +1,3 @@
-% Studente: Carriero Roberto
-% Matricola: 587640
-% Corso di Laurea: Ingegneria Informatica e dell'Automazione (P-TECH)
-%
-% Tema d'Anno in Programmazione dei Sistemi Avionici - a.a. 2024/2025
-% Docente: Prof. Antonio Satriano
-%
-% Titolo: Simulazione di un Sistema di Controllo PID per la Stabilizzazione
-% di un Drone Quadricottero in Ambiente MATLAB®
-%
-% Funzione esterna: quadricottero_pid_ui_callbacks.m
-
 function quadricottero_pid_ui_callbacks(type, hObject, fig_main_drone)
 % Questa funzione gestisce gli eventi generati dagli elementi della GUI (slider).
 %
@@ -100,5 +88,6 @@ set(fig_pid_handle, 'UserData', sim_data);
 
 fig_error_handle = findobj('Name', 'Grafici Errore');
 set(fig_error_handle, 'UserData', sim_data);
+
 
 end
