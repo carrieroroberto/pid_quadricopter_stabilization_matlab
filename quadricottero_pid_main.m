@@ -1,15 +1,3 @@
-% Studente: Carriero Roberto
-% Matricola: 587640
-% Corso di Laurea: Ingegneria Informatica e dell'Automazione (P-TECH)
-%
-% Tema d'Anno in Programmazione dei Sistemi Avionici - a.a. 2024/2025
-% Docente: Prof. Antonio Satriano
-%
-% Titolo: Simulazione di un Sistema di Controllo PID per la Stabilizzazione
-% di un Drone Quadricottero in Ambiente MATLAB®
-%
-% Funzione main: quadricottero_pid_main.m
-
 clc; % Pulisce la Command Window.
 clear; % Pulisce tutte le variabili dal Workspace.
 
@@ -461,3 +449,4 @@ while ishandle(fig_drone) && ishandle(fig_pid) && ishandle(fig_error) % Continua
     drawnow;
     
 end
+
