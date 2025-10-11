@@ -449,4 +449,3 @@ while ishandle(fig_drone) && ishandle(fig_pid) && ishandle(fig_error) % Continua
     drawnow;
     
 end
-
