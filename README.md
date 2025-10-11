@@ -37,8 +37,3 @@ The simulator models the complete 6-Degrees-of-Freedom (6-DoF) dynamics of a qua
 
 - `quadricottero_pid_main.m`: The main script that initializes the drone and simulation parameters, handles the graphical setup, and contains the main simulation loop.
 - `quadricottero_pid_ui_callbacks.m`: An external function that handles events triggered by user interactions with the GUI (e.g., moving the sliders).
-
-## 🙏 Acknowledgments
-
-A special thanks to **Prof. Antonio Satriano** for his guidance and supervision during this project.
-Project developed for the Computer and Automation Engineering program at the **Polytechnic University of Bari (Politecnico di Bari)**.
