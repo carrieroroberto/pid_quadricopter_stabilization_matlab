@@ -89,5 +89,4 @@ set(fig_pid_handle, 'UserData', sim_data);
 fig_error_handle = findobj('Name', 'Grafici Errore');
 set(fig_error_handle, 'UserData', sim_data);
 
-
 end
