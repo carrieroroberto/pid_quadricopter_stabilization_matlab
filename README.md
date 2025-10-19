@@ -1,10 +1,12 @@
 # Quadcopter PID Control Simulator in MATLAB®
 
-![MATLAB](https://img.shields.io/badge/matlab-R2025%2B-orange)
+![MATLAB](https://img.shields.io/badge/matlab-R2021%2B-orange)
 
 This repository contains the source code for a simulator developed in **MATLAB** to study and stabilize a quadcopter drone using PID controllers. The simulator models the complete 6-Degrees-of-Freedom (6-DoF) dynamics of a quadcopter and implements a dual-loop control system (for position and attitude) to hold the drone at a target position, while also compensating for external disturbances like simulated wind gusts.
 
 <img width="1870" height="692" alt="Screenshot 2025-10-18 164331" src="https://github.com/user-attachments/assets/a0734be3-bae0-4139-ac38-3e9305c4c344" />
+
+---
 
 ## 🚀 Key Features
 
@@ -19,9 +21,13 @@ This repository contains the source code for a simulator developed in **MATLAB**
     - Live plots showing the position/attitude errors and the contribution of each PID term (Proportional, Integral, Derivative).
 - **Advanced Control Techniques**: Implementation of an **anti-windup** mechanism to limit integral error accumulation and a **low-pass filter** on the derivative term to reduce noise amplification.
 
+---
+
 ## 🛠️ Prerequisites
 
 - **MATLAB®** (R2021b or later recommended).
+
+---
 
 ## ⚙️ How to Run
 
@@ -34,6 +40,8 @@ This repository contains the source code for a simulator developed in **MATLAB**
     ```
 5.  The three figure windows (3D simulation, PID plots, error plots) will open, and the simulation will start.
 6.  Use the sliders in the 3D simulation window to tune the PID gains and observe the drone's behavior.
+
+---
 
 ## 📂 Code Structure
 
